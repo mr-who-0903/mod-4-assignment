@@ -7,9 +7,9 @@
     var firstLetter = names[i].charAt(0).toLowerCase();
 
   if (firstLetter === "j") {
-    byeSpeaker.speak(name[i]);
+    byeSpeaker.speak(names[i]);
   } else {
-    helloSpeaker.speak(name[i]);
+    helloSpeaker.speak(names[i]);
   }
 }
  } )();
